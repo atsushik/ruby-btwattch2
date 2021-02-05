@@ -15,7 +15,7 @@ Usage: btwattch2.rb [options]
 TBD
 
 ## preparation
-'''
+```
 bluetoothctl 
 #[NEW] Controller 00:10:20:30:40:50 pi [default]
 #
@@ -29,7 +29,7 @@ pair DD:C8:BA:12:34:56
 # 
 #
 trust DD:C8:BA:12:34:56
-'''
+```
 
 ## prerequesties
 ```
