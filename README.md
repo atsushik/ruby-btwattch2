@@ -14,6 +14,29 @@ Usage: btwattch2.rb [options]
 ```
 TBD
 
+## preparation
+'''
+bluetoothctl 
+#[NEW] Controller 00:10:20:30:40:50 pi [default]
+#
+power on
+#
+# 
+scan on
+# [NEW] Device DD:C8:BA:12:34:56 BTWATTCH2_1234
+# 
+pair DD:C8:BA:12:34:56
+# 
+#
+trust DD:C8:BA:12:34:56
+'''
+
+## prerequesties
+```
+sudo apt install ruby
+sudo gem install ble
+```
+
 ## Usage
     # ruby btwattch2.rb --addr CB:DF:6B:12:34:56
     V = 104.29123878479004, A = 1.1373979076743126, W = 106.03327941894531
